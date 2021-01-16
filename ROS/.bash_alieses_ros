@@ -1,0 +1,5 @@
+# ROS
+# catkin_make
+alias catm='cd ~/catkin_ws && catkin_make'
+# commonly used option (ex. bagp hoge.bag)
+alias bagp='rosbag play --pause --clock'
