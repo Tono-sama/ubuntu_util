@@ -17,5 +17,5 @@ sudo apt-get remove ros-melodic-abseil-cpp
 
 catkin_make_isolated --install --use-ninja
 
-echo "source ~/catkin_ws_isolated/devel/setup.bash" >> ~/.bashrc
+echo "source ~/catkin_ws_isolated/devel_isolated/setup.bash" >> ~/.bashrc
 source ~/.bashrc
